@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Monitor</string>
+
+    <!--新版登录专用-->
+    <string name="home">主页面</string>
+    <string name="login">登录</string>
+    <string name="login_input_username_hint">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="login_hold_hint">自动登录</string>
+    <string name="login_forget_hint">忘记密码？</string>
+    <string name="login_register_hint">注册</string>
+    <string name="login_other_hint">其他方式登录</string>
+    <string name="register_input_username_hint">手机号</string>
+    <string name="register_username_hint">用户名</string>
+    <string name="register_sms_auth_code">短信验证码</string>
+    <string name="register_sms_hint">获取验证码</string>
+    <string name="register_sms_wait_hint">别激动,休息一下呗&#8230;</string>
+
+    <string name="register_set_pwd">设置密码</string>
+    <string name="register_reset_pwd">设置新密码</string>
+
+    <string name="loading_image">正在准备图片...</string>
+    <string name="register_done_hint">完成</string>
+    <string name="register_man_hint">男士</string>
+    <string name="register_female_hint">女士</string>
+    <string name="retrieve_pwd_step_hint">下一步</string>
+    <string name="retrieve_pwd_email_label_one">邮箱用户找回密码，请</string>
+    <string name="retrieve_pwd_email_label"><a>点击这里</a></string>
+    <string name="reset_pwd_hint">请输入至少六位新密码</string>
+    <string name="set_pwd_hint">请输入至少六位密码</string>
+    <string name="register_pwd_hint">请输入至少六位数密码</string>
+    <string name="reset_pwd_submit">确认</string>
+    <string name="set_pwd_submit">完成</string>
+    <string name="message_pwd_error">密码错误</string>
+    <string name="message_username_null">用户名未填写！！！</string>
+
+    <string name="app_function_introduce">登陆、注册、手机号码验证、修改密码、扫码获得监控摄像头等。</string>
+    <string name="app_technology_smssdk">SMSSDK: 实现了手机号的验证</string>
+    <string name="app_technology_zxing">Zxing: 实现了二维码的生成、扫描</string>
+    <string name="app_technology_agora">Agord: 实现了视频流的传输，播放</string>
+    <string name="app_use_introduce_1">一、通过手机号注册</string>
+    <string name="app_use_introduce_2">二、登陆 APP</string>
+    <string name="app_use_introduce_3">三、点击扫一扫</string>
+    <string name="app_contact_information_qq">QQ: 1019334239</string>
+    <string name="app_contact_information_wx">微信: jiubanzmh1314</string>
+    <string name="app_contact_information_phone">手机号码: 17638535607</string>
+
+    <string name="app_feed_back">如果您对本产品有更高的建议，您可以到关于 APP页面查看联系方式。</string>
+
+
+    <!-- agora id-->
+    <string name="agora_app_id">b616168b363d4b509161169de97a3318</string>
+    <string name="agora_access_token">006b616168b363d4b509161169de97a3318IAB17UjCwT8SiWUPBS7tYU7kLhXsO/vk/S6z92eEmSZNVA6MCXAAAAAAEAAOAuVJo7OWXgEAAQCis5Ze</string>
+    <!--<string name="agora_access_token">006b616168b363d4b509161169de97a3318IABnSNR1Q+WdB/pFULgw55xbmJN3v9Re2YtfCH2/FDHrDxPWmTzTimb6IgB5vJxU86eWXgQAAQCCZJVeAgCCZJVeAwCCZJVeBACCZJVe</string>-->
+
+</resources>

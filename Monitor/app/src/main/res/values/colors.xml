@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 常用颜色值 -->
+    <color name="white">#FFFFFF</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_alpha_128">#80000000</color>
+    <color name="list_item_background_pressed">#0e000000</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <!--  created by  fei -->
+    <color name="text_secondary_color">#9d9d9d</color>
+
+    <!-- 新版登录模块-->
+    <color name="login_line_color">#dededf</color>
+    <color name="login_input_active">#31b968</color>
+    <color name="login_other_color">#cacaca</color>
+    <color name="account_input_bg_color">#33ffffff</color>
+    <color name="account_lock_bg">#ff43815c</color>
+    <color name="account_lock_font_color">#FF68997C</color>
+    <color name="account_input_color">#c9c9c9</color>
+    <color name="account_pressed_true">#14b94d</color>
+
+    <color name="bg_press">#ebebeb</color>
+    <color name="bg_press_material">#d4d4d4</color>
+
+    <!-- 自定义窗口 -->
+    <color name="pop_back_ground">#000000</color>
+    <color name="pop_list_before_press"></color>
+    <color name="pop_list_after_press">#9d9d9d</color>
+
+    <!-- 屏幕 -->
+    <color name="screen_list_before_press">#0eDCDCDC</color>
+    <color name="screen_list_after_press">#0e000000</color>
+
+    <!-- 摄像头列表 -->
+    <color name="monitor_list_before_press"></color>
+    <color name="monitor_list_after_press">#0eDCDCDC</color>
+
+    <!-- 删除摄像头列表 -->
+    <color name="delete_list_before_press">#0eDCDCDC</color>
+    <color name="delete_list_after_press">#D3D3D3</color>
+
+
+    <!-- Monitor Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+
+    <!-- Logs -->
+    <color name="logInfo">#4a90e2</color>
+    <color name="logWarn">#fedd56</color>
+    <color name="logError">#fe375f</color>
+
+</resources>

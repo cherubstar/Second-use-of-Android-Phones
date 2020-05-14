@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.star.monitor">
+    <!--
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 更改录音设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- SD卡写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_monitor"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_monitor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon,android:allowBackup"
+        tools:targetApi="n">
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.star.video.MonitorActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="注册"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ForgetPwdActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="密码找回"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".SetPwdActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="@string/register_set_pwd"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ResetPwdActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="@string/register_reset_pwd"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="@string/home"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".VideoActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="视频播放器"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".FeedBackActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="视频播放器"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity
+            android:name=".AboutAPPActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="关于 APP"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.star.qrcode.CustomCaptureActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="自定义扫描界面"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Account_Base.App.Theme.NoTitle"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>

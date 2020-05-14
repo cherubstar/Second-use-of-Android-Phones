@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutAPPActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_login_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_login"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <include
+            android:id="@+id/ly_retrieve_bar"
+            layout="@layout/activity_about_navigation_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="功能介绍"
+                    android:textSize="20sp"
+                    android:paddingStart="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_function_introduce"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#0e000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="使用方法"
+                    android:textSize="20sp"
+                    android:paddingStart="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_use_introduce_1"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_use_introduce_2"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_use_introduce_3"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#0e000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式"
+                    android:textSize="20sp"
+                    android:paddingStart="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_contact_information_qq"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_contact_information_wx"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_contact_information_phone"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="font_12">12sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_18">18sp</dimen>
+
+    <dimen name="lay_12">12dp</dimen>
+    <dimen name="lay_16">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="log_back_corner_radius">16dp</dimen>
+    <dimen name="log_item_vertical_padding">6dp</dimen>
+    <dimen name="log_item_horizontal_padding">10dp</dimen>
+    <dimen name="log_text_size">10dp</dimen>
+    <dimen name="log_item_offset">3dp</dimen>
+
+    <dimen name="remote_back_icon_size">80dp</dimen>
+
+    <dimen name="log_container_width">260dp</dimen>
+    <dimen name="log_container_height">160dp</dimen>
+</resources>
