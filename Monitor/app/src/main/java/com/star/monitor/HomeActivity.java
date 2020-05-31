@@ -68,6 +68,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 intentIntegrator.initiateScan();
                 break;
             case R.id.ll_media:
+                startActivity(new Intent(HomeActivity.this, VideoActivity.class));
                 break;
             case R.id.ll_set:
                 startActivity(new Intent(HomeActivity.this, FeedBackActivity.class));

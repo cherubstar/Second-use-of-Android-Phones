@@ -11,7 +11,7 @@
 
     <include
         android:id="@+id/ly_retrieve_bar"
-        layout="@layout/activity_main_login_navigation_bar" />
+        layout="@layout/activity_main_retrieve_pwd__navigation_bar" />
 
     <LinearLayout
         android:id="@+id/ll_retrieve_tel"

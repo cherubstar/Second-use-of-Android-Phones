@@ -50,7 +50,6 @@
 
     <!-- agora id-->
     <string name="agora_app_id">b616168b363d4b509161169de97a3318</string>
-    <string name="agora_access_token">006b616168b363d4b509161169de97a3318IAB17UjCwT8SiWUPBS7tYU7kLhXsO/vk/S6z92eEmSZNVA6MCXAAAAAAEAAOAuVJo7OWXgEAAQCis5Ze</string>
-    <!--<string name="agora_access_token">006b616168b363d4b509161169de97a3318IABnSNR1Q+WdB/pFULgw55xbmJN3v9Re2YtfCH2/FDHrDxPWmTzTimb6IgB5vJxU86eWXgQAAQCCZJVeAgCCZJVeAwCCZJVeBACCZJVe</string>-->
+    <string name="agora_access_token">006b616168b363d4b509161169de97a3318IAAlx9RIyuhEF0MoGbUAnJGNXXBxBxk/7yGrvHhGFLsDNYWZFeEAAAAAEADTkPY5CC/CXgEAAQAHL8Je</string>
 
 </resources>

@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    #   数据源基本配置
+    username: root
+    password: star
+    url: jdbc:mysql://127.0.0.1:3306/monitor?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#  servlet:
+#    multipart:
+#      max-request-size: 100MB
+#      max-file-size: 100MB
+#
+#file_address: /video

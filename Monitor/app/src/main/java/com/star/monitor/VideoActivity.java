@@ -1,5 +1,6 @@
 package com.star.monitor;
 
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.MediaController;
@@ -18,9 +19,10 @@ public class VideoActivity extends AppCompatActivity {
 
         videoView = findViewById(R.id.video_view);
 
-        String urlPath = getIntent().getStringExtra("urlPath");
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
         // 网络视频播放
-        videoView.setVideoURI(Uri.parse(urlPath));
+        videoView.setVideoURI(Uri.parse("http://39.107.27.182:8080/video/1.mp4"));
 
         MediaController controller = new MediaController(this);
         videoView.setMediaController(controller);

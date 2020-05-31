@@ -15,11 +15,41 @@
         android:background="@color/localBackground"
         tools:ignore="MissingConstraints">
 
+        <FrameLayout
+            android:id="@+id/video_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <ImageView
+            android:id="@+id/agora_image_view"
             android:layout_width="@dimen/local_back_icon_size"
             android:layout_height="@dimen/local_back_icon_size"
             android:layout_centerInParent="true"
             android:src="@drawable/icon_agora_largest"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/video_on_off"
+            android:layout_width="@dimen/local_on_off_icon_size"
+            android:layout_height="@dimen/local_on_off_icon_size"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/video_off"/>
+
+        <ImageButton
+            android:id="@+id/video_upload"
+            android:layout_width="@dimen/local_on_off_icon_size"
+            android:layout_height="@dimen/local_on_off_icon_size"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/video_upload"/>
+
     </RelativeLayout>
 
     <com.star.AndMon.LoggerRecyclerView

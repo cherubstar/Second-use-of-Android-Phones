@@ -11,6 +11,8 @@
 
     <dimen name="local_back_icon_size">100dp</dimen>
 
+    <dimen name="local_on_off_icon_size">80dp</dimen>
+
     <dimen name="log_container_width">240dp</dimen>
     <dimen name="log_container_height">120dp</dimen>
 </resources>
